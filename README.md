@@ -1,47 +1,21 @@
-# 🧳 Far Away – React Packing List App
+# React Accordion FAQ
 
-**Far Away** is a travel packing list application built as part of the [_React Course by Jonas Schmedtmann_](https://www.udemy.com/course/the-ultimate-react-course/).  
-The project idea and overall structure are based on the course material, while the implementation, styling, and refinements were coded independently as part of my React learning journey.
-
-## ✨ Features
-
-- **Add Items**: Create new items with a description and quantity.
-- **Toggle Packed Items**: Mark items as packed or unpacked.
-- **Sorting Options**:
-  - By order of input.
-  - Alphabetically by description.
-  - By packed status.
-- **Delete Items**: Remove individual items or clear the entire list.
-- **Statistics**: View total items and packed percentage.
-- **Simple UI**: Clean and responsive design for all devices.
+A simple and responsive Accordion FAQ component built with **React**.  
+It allows users to expand and collapse questions, including support for bullet lists in answers.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-- **React** (Hooks, Functional Components)
-- **JavaScript (ES6+)**
-- **CSS** for basic styling
-- **Vite** for fast development and build tooling
-
----
-
-## 🎯 Learning Goals
-
-This project was created to practice:
-
-- React fundamentals: `useState`, props, state lifting.
-- Building and managing reusable components.
-- Handling user input, events, and conditional rendering.
-- Structuring a small-scale React app.
+- Expand/collapse FAQ items
+- Support for both paragraphs and lists (`<ul><li>`)
+- Responsive design for mobile and desktop
+- Smooth animations for opening/closing
 
 ---
 
-## 📂 Structure
+## Technologies Used
 
-Far-Away/
-├── src/
-│ ├── App.js
-│ ├── index.js
-│ └── styles.css
-└── package.json
+- React (Functional Components & Hooks)
+- JavaScript (ES6+)
+- CSS
