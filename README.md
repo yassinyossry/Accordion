@@ -19,3 +19,5 @@ It allows users to expand and collapse questions, including support for bullet l
 - React (Functional Components & Hooks)
 - JavaScript (ES6+)
 - CSS
+
+🌐 Live Demo: [Far Away on Vercel](https://accordion-yassinyossry.vercel.app)
