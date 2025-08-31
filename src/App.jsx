@@ -68,7 +68,7 @@ function Questions({ currentOpen, onOpen, number, title, children }) {
       <p className="icon">{isOpen ? "-" : "+"}</p>
       {isOpen && (
         <div className="content-box">
-          <p className="text">{children}</p>
+          <div className="text">{children}</div>
         </div>
       )}
     </div>
