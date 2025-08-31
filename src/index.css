@@ -74,6 +74,22 @@ body {
   margin-top: 12px;
 }
 
+.content-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 8px;
+  color: #495057;
+}
+
+.content-box li {
+  margin-bottom: 6px;
+}
+
+.content-box li::marker {
+  color: #087f5b;
+}
+
+
 /* OPEN STATE */
 .open {
   border-top: 4px solid #087f5b;
