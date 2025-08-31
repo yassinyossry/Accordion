@@ -13,7 +13,21 @@ const faqs = [
     title: "Why do developers use Git for project management?",
     text: "Git is a version control system that tracks code changes, allows rolling back to previous versions, supports team collaboration, and enables branching for feature development without affecting the main codebase.",
   },
+  {
+    title: "Steps to contribute to a GitHub project",
+    text: (
+      <ul>
+        <li>Fork the repository to your account</li>
+        <li>Clone it to your local machine</li>
+        <li>Create a new branch for your feature or fix</li>
+        <li>Make your changes and commit them with a clear message</li>
+        <li>Push the branch to your GitHub repo</li>
+        <li>Create a Pull Request for review</li>
+      </ul>
+    ),
+  },
 ];
+
 
 export default function App() {
   return (
